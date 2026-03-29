@@ -362,7 +362,7 @@ terraform state show <resource_name>  # Details of specific resource
 
 ## Next Steps
 
-1. Read [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) for detailed deployment steps
+1. Read [DEPLOYMENT_GUIDE.md](https://github.com/areysid/bookreview-terraform-iac/blob/main/deployment.md) for detailed deployment steps
 2. Deploy following the "What to Set Up First" section above
 3. Connect to instances and verify application deployment
 4. Configure your application to use the RDS endpoint
