@@ -29,6 +29,7 @@ book-review-terraform-Iac/
     ├── security/          # Security groups and rules
     │   ├── main.tf
     │   ├── variables.tf
+    │   ├── locals.tf    
     │   └── outputs.tf
     │
     ├── ec2/              # EC2 instances (web and app servers)
@@ -39,6 +40,7 @@ book-review-terraform-Iac/
     ├── alb/              # Application Load Balancers
     │   ├── main.tf
     │   ├── variables.tf
+    │   ├── locals.tf
     │   └── outputs.tf
     │
     └── database/         # RDS (MySQL)

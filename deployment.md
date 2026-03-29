@@ -88,6 +88,7 @@ sudo systemctl status nginx --no-pager
 
 ## Common troubleshooting
 
+- If `/api` falls back to localhost, run `grep -r "localhost:3000" .` on the web instance and see if there is any variable that fallsback to localhost. If so, try removing the fallback completely to check. 
 - `Permission denied`: run `chmod +x` again.
 - PM2 app not up: inspect logs with `pm2 logs`.
 - Nginx fails test: run `sudo nginx -t` and fix syntax in generated config.
